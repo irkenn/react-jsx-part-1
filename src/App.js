@@ -1,9 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import FirstComponent from './FirstComponent';
+import NamedComponent from './NamedComponent';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      < FirstComponent />
+      < NamedComponent name="Erick"/>
+    </div>
+
+
+  );
+}
+
+export default App;
+
+
+/**
+ *  Previous code from App
+ *     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +35,4 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
-
-export default App;
+ */
